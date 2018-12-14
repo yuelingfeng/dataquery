@@ -121,6 +121,9 @@ class DataQueryTcpServer(QTcpServer):
     def sendMessageToThread(self,msg):
         self.sendMessageToThread_signal.emit(msg)
 
+    def stop(self):
+        self.close()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

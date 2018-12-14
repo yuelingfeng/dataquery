@@ -72,7 +72,7 @@ class DataQuery(QWidget):
 
     def updateip(self):
         if self.__web_state == 1:
-            self.wb.stop()
+            self.srv.stop()
             self.__web_state = 0
         self.getipthread = GetIPThread()
         self.ui.lineEdit_IPAddress.setText('正在获取IP')

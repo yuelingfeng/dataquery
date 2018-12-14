@@ -29,6 +29,9 @@
     <Compile Include="exts.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="queryDataBase.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="run.py">
       <SubType>Code</SubType>
     </Compile>
